@@ -1,9 +1,9 @@
 function Footer(props) {
     return (
-    <footer className="">
+    <footer className="App-footer">
         {props.footer}
     </footer>
     )
 };
 
-export default Footer
+export default Footer;
