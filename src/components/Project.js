@@ -1,10 +1,10 @@
 function Project(props) {
     return (
-            <div className="">
+            <div className="App">
                 <h3 id='my-projects'>My Projects</h3>
                 <div>
-                    <h1>{props.projectMain}</h1>
-                    <a href={props.main} target="_blank" rel="noopener noreferrer"><img className='App-img' src={props.mainImg} alt={props.main}></img></a>
+                    <h1>{props.main}</h1>
+                    <a href={props.projectMain} target="_blank" rel="noopener noreferrer"><img className='App-img' src={props.mainImg} alt={props.main}></img></a>
                     <a href={props.projectMainRepo} target="_blank" rel="noopener noreferrer">Code Repo</a>
                 </div>
                 <div>
