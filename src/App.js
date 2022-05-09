@@ -4,7 +4,7 @@ import './App.css';
 import Header from './components/Header';
 import Project from './components/Project';
 import Footer from './components/Footer';
-import mainBody from './components/mainBody';
+import AboutResume from './components/AboutResume';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <title>David's Portfolio</title>
           <Header logo={logo}/>
         <body>
-          <mainBody photo='' resumeLink='https://drive.google.com/file/d/12EglZpy6AvmIqKdpTQHEzFZgDDupDCj8/view?usp=sharing'/>
+          <AboutResume photo='' resumeLink='https://drive.google.com/file/d/12EglZpy6AvmIqKdpTQHEzFZgDDupDCj8/view?usp=sharing'/>
           <Project 
           main='Travel Trustee App'
           mainImg='./new.png'

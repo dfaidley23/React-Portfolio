@@ -1,4 +1,4 @@
-function mainBody(props) {
+function AboutResume(props) {
     return (
     <section className="App">
         <div  id="about-me">
@@ -16,4 +16,4 @@ function mainBody(props) {
     )
 };
 
-export default mainBody;
+export default AboutResume;
