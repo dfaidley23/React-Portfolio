@@ -8,7 +8,7 @@ function AboutResume(props) {
             </p>
         </div>
         <div id="my-resume">
-            <h1>David's Resume</h1>
+            <h1>My Resume</h1>
             <p>For a copy of my resume please clink on the link below</p>
             <a id="resume" href={props.resumeLink} target="_blank" rel="noopener noreferrer">My Resume!</a>
         </div>

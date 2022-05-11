@@ -1,6 +1,6 @@
 function Nav(props) {
     return (
-    <nav className="App">
+    <nav className="text-right">
         <ul>
             <li> <a href={props.github} target="_blank" rel="noopener noreferrer">Github</a></li>
             <li> <a href={props.linkedIn} target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
