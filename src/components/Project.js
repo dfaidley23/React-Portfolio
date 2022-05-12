@@ -1,7 +1,7 @@
 function Project(props) {
     return (
             <div className="project-section">
-                <h3>My Projects</h3>
+                <h1 className='project-section-title'>My Projects</h1>
                 <div id='project-main'>
                     <h1>{props.main}</h1>
                     <a href={props.projectMain} target="_blank" rel="noopener noreferrer"><img className='App-img' src={props.mainImg} alt={props.main}></img></a>
@@ -22,7 +22,7 @@ function Project(props) {
                     <a href={props.projectThree} target="_blank" rel="noopener noreferrer"><img className='App-img' src={props.p3Img} alt={props.p3}></img></a>
                     <a href={props.projectThreeRepo} target="_blank" rel="noopener noreferrer">Code Repo</a>
                 </div>
-                <div id='projects'>
+                <div id='projects'> 
                     <h1>{props.p4}</h1>
                     <a href={props.projectFour} target="_blank" rel="noopener noreferrer"><img className='App-img' src={props.p4Img} alt={props.p4}></img></a>
                     <a href={props.projectFourRepo} target="_blank" rel="noopener noreferrer">Code Repo</a>
