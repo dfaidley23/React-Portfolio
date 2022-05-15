@@ -1,6 +1,6 @@
-function AboutResume(props) {
+function Home(props) {
     return (
-    <section className="App">
+    <section className="App-main">
         <div  id="about-me">
         <h1>About Me</h1>
             <img id="my-photo" src={props.photo} alt='Me under a sign with my name'></img>
@@ -16,4 +16,4 @@ function AboutResume(props) {
     )
 };
 
-export default AboutResume;
+export default Home;

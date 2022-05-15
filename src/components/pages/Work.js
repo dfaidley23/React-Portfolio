@@ -1,7 +1,7 @@
-function Project(props) {
+function Work(props) {
     return (
-            <div className="project-section">
-                <h1 className='project-section-title'>My Projects</h1>
+        <div  className='project-section'>
+        <h1 className='project-section-title'>My Projects</h1>
                 <div id='project-main'>
                     <h1>{props.main}</h1>
                     <a href={props.projectMain} target="_blank" rel="noopener noreferrer"><img className='App-img' src={props.mainImg} alt={props.main}></img></a>
@@ -31,4 +31,4 @@ function Project(props) {
     )
 };
 
-export default Project;
+export default Work;

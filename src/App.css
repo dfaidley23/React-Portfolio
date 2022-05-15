@@ -1,18 +1,18 @@
-body {
-  /* background-image: url("https://i.imgur.com/ZXDrw5D.gif")
-  !important;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; */
-  font-family: Tahoma, sans-serif;
-  font-size: 20px;
+* {
+  margin:0;
+  padding:0;  
+  text-decoration: none;
   text-align: center;
-  background-color: #282c34;
+}
+
+h1 {
+  position: relative;
+  font-weight: bold;
+  font-size: 25px;
 }
 
 p {
-  padding: 20px;
-  margin: 20px;
+  padding: 50px;
 }
 
 li {
@@ -20,15 +20,11 @@ li {
   padding: 20px;
 }
 
-.App {
-  text-align: center;
-  background-color: #282c34;
-  color: white;
-}
-
+/* Class Selectors */
 .App-logo {
   height: 10vmin;
   pointer-events: none;
+  background: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -37,27 +33,31 @@ li {
   }
 }
 
-.App-header {
-  height: 30vh;
+.App-footer {
+  background-color: #282c34;
+  text-align: center;
+  color: white;
+  font-size: calc(10px + 2vmin);
+  width: 100vw;
+  padding-top: 5%;
+}
+
+.App-main {
+  height: 100vh;
+  width: 100vw;
+  background-color: #282c34;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
+  align-items: center;
   justify-content: center;
+  text-align: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-footer {
-  background-color: #282c34;
-  color: white;
-  margin:0;
-}
-
 .App-link {
-  color: #61dafb;
-}
-
-.text-right {
-  text-align: right;
+  color: #0400ff;
 }
 
 @keyframes App-logo-spin {
@@ -73,6 +73,7 @@ li {
   text-align: center;
   background-color: #282c34;
   color: white;
+  padding: 5%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -89,11 +90,13 @@ li {
   width: 100vw;
 }
 
+
 /* ID selectors */
 #project-main {
   flex-basis: 60%;
   height: 60vh;
   width: 50vw;
+  margin: 50px;
 }
 
 #projects {
@@ -113,4 +116,21 @@ li {
   height: 30%;
   margin: 20px auto;
   border: 10px double black;
+}
+
+#linkedIn {
+  height: 15%;
+  width: 15%;
+}
+
+#left {
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+#right {
+  position: fixed;
+  right: 0;
+  top: 0;
 }
